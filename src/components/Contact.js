@@ -9,7 +9,7 @@ const Contact = () => {
             <p className='text-white my-2'>// Submit the form below or shoot me an email - sachindhull619@gmail.com</p>
         </div>
         <input className='bg-[#ccd6f6] p-2' type='text' placeholder='Name' name='name'/>
-        <input className='my-4 p-2 bg-[#ccd6f6]' type='text' placeholder='Emain' name='email'/>
+        <input className='my-4 p-2 bg-[#ccd6f6]' type='text' placeholder='Email' name='email'/>
         <textarea className='bg-[#ccd6f6] p-2'  name='message' placeholder='Message' rows='10'></textarea>
         <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Lets Collab!</button>
       </form>
